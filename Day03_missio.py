@@ -1,14 +1,14 @@
-# 6.2
-guess_me=7
-number=1
-
-while True:
-    if guess_me > number:
+guess_me = 5
+for number in range(10):
+    if number < guess_me:
         print("too low")
-    elif guess_me == number:
+    elif number == guess_me:
         print("found it!")
         break
-    number += 1
+    elif number > guess_me:
+        print("oops")
+        break
+
 
 
 
