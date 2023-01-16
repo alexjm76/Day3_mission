@@ -1,21 +1,13 @@
-# 5.5
-salutation = "hello"
-name= "alex"
-product= "knife"
-verbed="scratch"
-room ="402"
-animals= "cat"
-amount ="100$"
-percent= "75"
-spokesman= "David"
-job_title= "manager"
+# 5.6
+name1 = "Duck"
+name2 = "Gourd"
+name3 = "Spitz"
+example1= "%sy Mc%sface" % (name1 , name1)
+example2= "%sy Mc%sface" % (name2 , name2)
+example3= "%sy Mc%sface" % (name3 , name3)
+print(example1)
+print(example2)
+print(example3)
 
-letter = """ Dear {0} {1}
-          Thank you for your letter. We are sorry that our  {2} {3} in your {4}. Please note that it should never be used in a {4},especially near any {5}
-          Send us your receipt and {6} for shipping and handling. We will send you another {2} that, in our tests, is {7}% less likely to have {3}.
-         Thank you for your support.
-         Sincerely,
-         {8}
-         {9}""".format(salutation,name,product,verbed,room,animals,amount,percent,spokesman,job_title)
 
-print(letter)
+
